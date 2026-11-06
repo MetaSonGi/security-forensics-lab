@@ -1,0 +1,38 @@
+# === 절대 공개 금지: 증거/원본 데이터 ===
+*.dd
+*.img
+*.iso
+*.vmdk
+*.vdi
+*.mem
+*.dmp
+*.raw
+*.pcap
+*.pcapng
+*.cap
+*.evtx
+evidence/
+raw/
+dumps/
+
+# === 비밀 정보 ===
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*secret*
+*credential*
+*password*
+*token*
+
+# === 개인 정보가 섞일 수 있는 파일 ===
+screenshots/private/
+*.log
+logs/
+
+# === OS / 편집기 ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
